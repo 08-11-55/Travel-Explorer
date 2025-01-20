@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Your Trip</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="book.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.jpg" alt="logo" /></a>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#destinations">Destinations</a></li>
+                <li><a href="index.html#hotels">Hotels</a></li>
+                <li><a href="index.html#activites">Activities</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="booking">
+
+            <form action="#" method="post" class="booking-form">
+                <h2> Book your Trip</h2>
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email </label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                </div>
+                <div class="form-group">
+                    <label for="destination">Destination </label>
+                    <select id="destination" name="destination" required>
+                        <option value="new-york">New York City</option>
+                        <option value="paris">Paris</option>
+                        <option value="tokyo">Tokyo</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="startDate">Start Date </label>
+                    <input type="date" id="startDate" name="startDate" required />
+                </div>
+                <div class="form-group">
+                    <label for="endDate">End Date </label>
+                    <input type="date" id="endDate" name="endDate" required />
+                </div>
+                <div class="form-group">
+                    <label for="specialRequests">Special Requests </label>
+                    <textarea id="specialRequests" name="specialRequests" placeholder="Any special requests?"
+                        rows="4"></textarea>
+                </div>
+                <button class="btn" type="submit">Submit Booking</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 Your Travel Website. All Rights Reserved.</p>
+    </footer>
+</body>
+
+<script src="https://kit.fontawesome.com/6558443b63.js" crossorigin="anonymous"></script>
+
+</html>
